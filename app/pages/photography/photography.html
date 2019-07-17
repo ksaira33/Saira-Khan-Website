@@ -1,0 +1,38 @@
+<div class="container-fluid">
+
+  <div class="row justify-content-center display-flex">
+
+
+    <div class="col-9" id="largePageBox">
+      <h1>Photography</h1>
+      <br>
+      <div class="row no-gutters">
+        <div class="col-lg-4" id="photographyDiv" ng-repeat="image in images track by $index">
+          <img data-toggle="modal" ng-click="activePic($index)" data-target="#exampleModalCenter" id="photographyImg"
+            ng-src="{{image.src}}" alt="{{image.alt}}" />
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body" id="76">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+       <img data-toggle="modal" class="img-fluid" ng-src="{{activeImg.src}}" alt="{{activeImg.alt}}"/>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
