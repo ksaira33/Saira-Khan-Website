@@ -1,0 +1,103 @@
+/* app css stylesheet */
+
+
+.navbar {
+  min-height: 10vh;
+  background-color: #7C8244;
+}
+
+.navbar-brand {
+  font-size: 3em;
+  font-family: 'Poppins', sans-serif;
+}
+
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+
+body {
+  background-image: url("img/medow.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 12vh;
+ }
+
+ h1 {
+  font-family: 'Poppins', sans-serif;
+  text-align:center;
+ }
+
+ .container-fluid{
+  padding: 30px 30px 30px 30px;
+ }
+
+ #homeTextBox {
+  margin:20px;
+  background-color:#C7C8CD;
+  width: 247.5px;
+  opacity: 0.9;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+
+#headshot{
+  width: 247.5px;
+  height: 247.5px;
+}
+
+#icon{
+  color: 	#373536;
+}
+
+#largePageBox{
+  background-color: #C8C9CE;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+hr{
+  border-color: black;
+}
+
+#rightText{
+  text-align:right;
+}
+
+#projectDescList{
+  position: relative;
+  left: 30px;
+  list-style-position: outside;
+  text-indent: -1.5em;
+}
+
+#photographyImg{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 3px solid black;
+}
+
+
+#photographyDiv{
+  padding: 10px 10px 10px 10px;
+
+}
+
+#photographyImg:hover{
+  cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
